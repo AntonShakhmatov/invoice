@@ -1,0 +1,10 @@
+a6aa3b,127.0.0.1,GET,http://localhost:8000/invoice/new,1696508365,,200
+d3a955,127.0.0.1,GET,http://localhost:8000/product/items/json,1696508366,,200
+f9f206,127.0.0.1,POST,http://localhost:8000/invoice/new,1696508385,,302
+2fcb00,127.0.0.1,GET,http://localhost:8000/invoice/new,1696508385,,200
+c6ea57,127.0.0.1,GET,http://localhost:8000/product/items/json,1696508385,,200
+80fae6,127.0.0.1,GET,http://localhost:8000/invoice/new,1696509117,,200
+55ce63,127.0.0.1,GET,http://localhost:8000/product/items/json,1696509118,,200
+571b92,127.0.0.1,POST,http://localhost:8000/invoice/new,1696509142,,302
+20707e,127.0.0.1,GET,http://localhost:8000/invoice/new,1696509142,,200
+34a62d,127.0.0.1,GET,http://localhost:8000/product/items/json,1696509142,,200

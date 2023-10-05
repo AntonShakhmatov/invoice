@@ -1,0 +1,21 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# имя маршрута "invoice"
+app_invoice:
+    path: /invoice/new
+    methods: [GET, POST]
+    controller: App\Controller\InvoiceController::new
+
+invoice_items:
+    path: /invoice/items/json
+    controller: App\Controller\InvoiceController::getItems
+
+create_product:
+    path: /product
+    controller: App\Controller\ProductController::createProduct
+
+items:
+    path: /product/items/json
+    controller: App\Controller\ProductController::getItems

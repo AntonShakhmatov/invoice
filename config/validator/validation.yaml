@@ -1,0 +1,12 @@
+App\Entity\InvoiceLines:
+    properties:
+        description:
+            - NotBlank: ~
+        quantity:
+            - NotBlank: ~
+        amount:
+            - NotBlank: ~
+        vat_amount:
+            - NotBlank: ~
+        total_with_vat:
+            - NotBlank: ~

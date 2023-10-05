@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello InvoiceController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<form action="{{ path('create_invoice') }}" method="POST">
+  <div>
+    <label for="invoice-date">Дата счета:</label>
+    <input type="date" id="invoice-date" name="invoice[date]" required>
+  </div>
+  <div>
+    <label for="invoice-number">Номер счета:</label>
+    <input type="text" id="invoice-number" name="invoice[number]" required>
+  </div>
+  <div>
+    <label for="customer-id">Код клиента:</label>
+    <input type="text" id="customer-id" name="invoice[customer_id]" required>
+  </div>
+
+  <!-- Другие поля формы, связанные с счетом, могут быть добавлены здесь -->
+
+  <button type="submit">Создать счет</button>
+</form>
+
+{% endblock %}
